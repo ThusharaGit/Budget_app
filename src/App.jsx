@@ -56,7 +56,7 @@ function App() {
             </div>
 
             <div className='form_inputs'>
-              <input className='input' type="text" name="income" id="income_type" placeholder='Type' /><br />
+              <input className='input' type="text" name="income" id="income_type" placeholder='Credit/Debit' /><br />
               <input className='input' type="text" name="income" id="income_desc" placeholder='Description' /><br />
               <input className='input' type="number" name="income" id="income_amount" placeholder='Amount' /><br />
             </div>
