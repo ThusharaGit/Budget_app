@@ -8,38 +8,44 @@
   font-family: 'Anuphan', sans-serif;
 }
 body {
-  height: 100vh;
+  height: 300vh;
   width: 100vw;
   display: flex;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 50px;
   align-items: center;
+  overflow-y: scroll;
   
   
 }
 .credit {
-  height: 40px;
-  width: 350px;
+  height: auto;
+  width: auto;
   background-color: rgb(25, 167, 167);
   border-radius: 15px;
   text-align: center;
-  color: rgb(231, 249, 253);
+  color: rgb(255, 255, 255);
   margin: 20px auto 20px auto;
+  padding-right:  10px;
+  padding-left:  10px;
   
 }
 .pipes {
-  color: rgb(26, 58, 58);
+  color: rgb(45, 49, 49);
   
 }
 .debit {
-  height: 40px;
-  width: 350px;
+  height: auto;
+  width: auto;
   background-color: rgb(240, 128, 156);
   border-radius: 15px;
   text-align: center;
   color: rgb(231, 249, 253);
   margin: 20px auto 20px auto;
+  padding-right:  10px;
+  padding-left:  10px;
  
 }
 
